@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imageProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/piv1"
+        android:padding="5dp"
+        />
+
+    <!--Данные названия товара -->
+    <TextView
+        style=""
+        android:id="@+id/nameProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Элегия"
+        android:textSize="30sp"
+        android:textColor="#1F4567"
+        />
+
+    <TextView
+        android:id="@+id/shortDescription"
+        android:text="Букет из роз и пионов в розовом цвете"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <!--Стоимость товара-->
+    <!--        style="@style/moneyText"-->
+    <TextView
+        android:id="@+id/valueGoods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100 р."
+        android:layout_marginTop="25dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:id="@+id/descriptionProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Букет делается и делается из живых цветов, розовых рози бело-розовых пионов и зеленых трав"
+        />
+
+    <EditText
+        android:id="@+id/date_picker_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="К какой дате"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/time_picker_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="К какому времени"
+        android:layout_gravity="center"/>
+
+
+
+    <Button
+        android:id="@+id/btnAddOrder"
+        android:text="Заказать"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:src="@drawable/piv1"
+        />
+    <!--
+        Добавить информацию о покупателе
+        и номер карты
+    -->
+
+    <TextView
+        android:id="@+id/nameShop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/shop_name" />
+
+    <TextView
+        android:id="@+id/emailIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameShop"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="5dp"
+        android:text="\@" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameShop"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/emailIcon"
+        android:text="Email: " />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameShop"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/Email"
+        android:gravity="left"
+        android:text="App1@mail.ru" />
+
+    <TextView
+        android:id="@+id/imagePhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Email"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:text="P" />
+
+
+    <TextView
+        android:id="@+id/Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Email"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toEndOf="@+id/imagePhone"
+        android:text="Телефон: " />
+
+    <!--
+        Добавить сайт
+
+    -->
+
+    <TextView
+        android:id="@+id/textPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Email"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/Phone"
+        android:layout_alignParentEnd="true"
+        android:text="+7-902-543-32-57" />
+
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/imagePhone"
+        android:text="Адрес: "/>
+
+    <TextView
+        android:id="@+id/textAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Address"
+        android:text="Шоссе Энтузиастов д.25" />
+
+    <ImageView
+        android:id="@+id/imageMap"
+        android:layout_width="189dp"
+        android:layout_height="97dp"
+        android:layout_below="@id/Address"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@id/textAddress"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:text="@string/water"
+        android:id="@+id/txtWater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/imageMap"
+        />
+
+</RelativeLayout>
