@@ -111,6 +111,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/Address"
+        android:width="250dp"
         android:text="Шоссе Энтузиастов д.25" />
 
     <ImageView
@@ -118,18 +119,16 @@
         android:layout_width="189dp"
         android:layout_height="97dp"
         android:layout_below="@id/Address"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="10dp"
         android:layout_toEndOf="@id/textAddress"
-        android:padding="10dp"
-        />
+        android:padding="10dp" />
 
     <TextView
-        android:text="@string/water"
         android:id="@+id/txtWater"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
         android:layout_below="@id/imageMap"
-        />
+        android:layout_marginTop="25dp"
+        android:text="@string/water" />
 
 </RelativeLayout>
