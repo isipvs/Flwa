@@ -8,8 +8,8 @@ CREATE TABLE hld (
    hld_type  INTEGER,
    CONSTRAINT ch_month CHECK (hld_month BETWEEN 1 AND 12) 
 );
-CREATE TABLE [order] (
-   id_order  INTEGER NOT NULL
+CREATE TABLE ordr (
+   id_ordr  INTEGER NOT NULL
                      PRIMARY KEY AUTOINCREMENT,
    id_prdct  INTEGER NOT NULL,
    dtcreated INTEGER NOT NULL
