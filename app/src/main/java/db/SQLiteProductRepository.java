@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
-import Entity.Product;
+import entity.Product;
 import ru.mpt.p50_4_19.flwa.ProductRepository;
 
 /** */
