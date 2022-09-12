@@ -2,4 +2,5 @@
     <string name="app_name">Цветочный магазин - Гладиолус</string>
     <string name="water">Купить цветы и заказать доставку курьером по Москве и Московской области на дом или в офис предлагает интернет-магазин «Гладиолус». Оформить заказ можно онлайн ..</string>
     <string name="shop_name">Цветочный магазин \"Гладиолус\"</string>
+    <string name="link"><a href="https://www.google.ru/">Сайт магазина</a></string>
 </resources>
