@@ -1,4 +1,4 @@
-package db;
+package ru.mpt.p50_4_19.flwa.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -7,11 +7,8 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.Reader;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
@@ -20,7 +17,7 @@ public class DBHelper extends SQLiteOpenHelper {
     final private Context context;
 
     public DBHelper(@Nullable Context context ) {
-        super(context, "flwa.db", null, 1);
+        super(context, "flwa.ru.mpt.p50_4_19.flwa.db", null, 1);
         this.context = context;
     }
 

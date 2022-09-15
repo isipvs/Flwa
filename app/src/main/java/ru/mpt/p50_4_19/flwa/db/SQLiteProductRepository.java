@@ -1,4 +1,4 @@
-package db;
+package ru.mpt.p50_4_19.flwa.db;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
-import entity.Product;
+import ru.mpt.p50_4_19.flwa.entity.Product;
 import ru.mpt.p50_4_19.flwa.ProductRepository;
 
 /** */

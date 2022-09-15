@@ -1,4 +1,4 @@
-package entity;
+package ru.mpt.p50_4_19.flwa.entity;
 
 import java.math.BigDecimal;
 

@@ -3,8 +3,8 @@ package ru.mpt.p50_4_19.flwa;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import db.DBHelper;
-import db.SQLiteProductRepository;
+import ru.mpt.p50_4_19.flwa.db.DBHelper;
+import ru.mpt.p50_4_19.flwa.db.SQLiteProductRepository;
 
 /** */
 public class Repositories {
