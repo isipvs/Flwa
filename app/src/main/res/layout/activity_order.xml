@@ -33,6 +33,16 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        />
+
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/descriptionProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Букет делается и делается из живых цветов розовых роз, бело-розовых пионов и зеленых трав"
         />
 
     <!--Стоимость товара-->
@@ -42,35 +52,64 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="100 р."
-        android:layout_marginTop="25dp"
+        android:layout_margin="15dp"
         android:textSize="30sp"
         android:textStyle="bold"
+        android:layout_gravity="center"
         />
 
     <TextView
-        android:layout_marginTop="25dp"
-        android:id="@+id/descriptionProduct"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Букет делается и делается из живых цветов, розовых рози бело-розовых пионов и зеленых трав"
+        android:text="@string/to_date"
+        android:textSize="16sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/dateButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="10.10.2022"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        style="?android:spinnerStyle"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/to_time"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/timeButton"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="10:00"
+        android:layout_gravity="center"
+        style="?android:spinnerStyle"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пожелания к заказу"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
         />
 
     <EditText
-        android:id="@+id/date_picker_actions"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="К какой дате"
-        android:layout_gravity="center"/>
-
-
-    <EditText
-        android:id="@+id/time_picker_actions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="К какому времени"
-        android:layout_gravity="center"/>
-
-
+        android:inputType="text"
+        />
 
     <Button
         android:id="@+id/btnAddOrder"
@@ -80,5 +119,6 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         />
+
 
 </LinearLayout>
